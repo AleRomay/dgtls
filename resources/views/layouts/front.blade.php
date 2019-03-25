@@ -23,6 +23,7 @@
     <link href="{{ asset('css/flatpickr.css') }}" rel="stylesheet">
     <link href="{{ asset('css/light.css') }}" rel="stylesheet" id="stylesheetLight">
     <link href="{{ asset('css/dark.css') }}" rel="stylesheet" id="stylesheetDark">
+    <link href="https://wingman.mediumra.re/assets/css/theme.css" rel="stylesheet">
 </head>
 <body>
    
@@ -58,5 +59,6 @@
         <script src="{{ asset('js/select2.js') }}" defer></script>
         <script src="{{ asset('js/chart.extension.js') }}" defer></script>
         <script src="{{ asset('js/theme.js') }}" defer></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.1.2/flickity.pkgd.min.js"></script>
     </body>
 </html>

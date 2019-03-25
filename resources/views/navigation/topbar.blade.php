@@ -58,17 +58,37 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle active" href="#" id="topnavDashboards" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dashboards
+					Solutions
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="topnavDashboards">
 						<li>
 							<a class="dropdown-item " href="index.html">
-							Default
+							Innovation
 							</a>
 						</li>
 						<li>
-							<a class="dropdown-item active" href="dashboard-alt.html">
-							Alternative
+							<a class="dropdown-item" href="dashboard-alt.html">
+							Prototyping
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="dashboard-alt.html">
+							Design
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="dashboard-alt.html">
+							Development
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="dashboard-alt.html">
+							Maintenance
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="dashboard-alt.html">
+							Artificial Intelligence
 							</a>
 						</li>
 					</ul>

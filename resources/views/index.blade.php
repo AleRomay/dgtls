@@ -1,26 +1,104 @@
 
-@extends('layouts.front')
+<!doctype html>
+<html lang="en">
 
+  <head>
 
-@section('content')
-       
+ 
+    <meta charset="utf-8">
+    <title>Wingman Bootstrap Theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A robust suite of app and landing page templates by Medium Rare">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500" rel="stylesheet">
+    <link href="assets/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/entypo.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
 
-           
+  <body>
 
+    <div class="navbar-container">
+      <div class="bg-dark navbar-dark" data-sticky="top">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img alt="Wingman" src="assets/img/logo-white.svg" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="icon-menu h4"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Overview</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown">Pages</a>
+                  <div class="dropdown-menu" aria-labelledby="pagesDropdown">
 
-    
-                
+                    <a class="dropdown-item" href="pages-landing.html">
+                      <span class="h6 mb-0">Landing Pages</span>
+                      <p class="text-small text-muted">Showcase your product in style</p>
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="pages-app.html">
+                      <span class="h6 mb-0">App Pages</span>
+                      <p class="text-small text-muted">Build detailed, functional web apps</p>
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="pages-inner.html">
+                      <span class="h6 mb-0">Inner Pages</span>
+                      <p class="text-small text-muted">Complete your online presence</p>
+                    </a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="componentsDropdown" role="button" data-toggle="dropdown">Components</a>
+                  <div class="dropdown-menu" aria-labelledby="componentsDropdown">
+
+                    <a class="dropdown-item" href="components-bootstrap.html">Bootstrap</a>
+
+                    <a class="dropdown-item" href="components-wingman.html">Wingman</a>
+
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="documentation/index.html" class="nav-link">Docs</a>
+                </li>
+                <li class="nav-item">
+                  <a href="documentation/changelog.html" class="nav-link">Changelog <span class="badge badge-secondary mr-2">v1.2.0</span></a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-success">Purchase Now</a>
+                </li>
+              </ul>
+
+            </div>
+            <!--end nav collapse-->
+          </nav>
+        </div>
+        <!--end of container-->
+      </div>
+    </div>
     <div class="main-container">
       <section class="space-lg bg-gradient overflow-hidden">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12 col-md-6 mb-5 mb-md-0 position-relative">
-              <h1 class="display-4">We build better software, faster</h1>
+              <h1 class="display-4">Build stunning websites and apps</h1>
               <p class="lead">
-              {{ config('app.name', 'Laravel') }} delivers high-impact business outcomes at startup speed.
+                Meet Wingman, a robust suite of styled pages and components, powered by Bootstrap 4. The ideal starting point for product landing pages, stylish web-apps and complete company websites.
               </p>
-              <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-success">Contact us</a>
-              <i class="icon-chevron-right"></i>to accelerate your digital transformation
+              <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-success">Purchase Now</a>
+              <a href="pages-landing.html" class="btn btn-lg btn-link text-white">Start exploring <i class="icon-chevron-right"></i></a>
             </div>
             <!--end of col-->
             <div class="col-12 col-md-6">
@@ -29,10 +107,10 @@
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
                     <a href="landing-1.html">
-                      <img class="card-img-top" src="{{ asset('img/site-bancaclub.png') }}" alt="Landing - One">
+                      <img class="card-img-top" src="assets/img/overview/landing-1-hero.jpg" alt="Landing - One">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-1.html" class="h6 m-0">BancaClub</a>
+                      <a href="landing-1.html" class="h6 m-0">Landing - One</a>
                       <a target="_blank" href="landing-1.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
@@ -40,10 +118,10 @@
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
                     <a href="landing-2.html">
-                      <img class="card-img-top" src="{{ asset('img/site-atlanticpark.png') }}" alt="Landing - Two">
+                      <img class="card-img-top" src="assets/img/overview/landing-2-hero.jpg" alt="Landing - Two">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-2.html" class="h6 m-0">AtlanticPark</a>
+                      <a href="landing-2.html" class="h6 m-0">Landing - Two</a>
                       <a target="_blank" href="landing-2.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
@@ -51,10 +129,10 @@
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
                     <a href="landing-8.html">
-                      <img class="card-img-top" src="{{ asset('img/site-subanca.png') }}" alt="Landing - Eight">
+                      <img class="card-img-top" src="assets/img/overview/landing-8-hero.jpg" alt="Landing - Eight">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-8.html" class="h6 m-0">SuBanca</a>
+                      <a href="landing-8.html" class="h6 m-0">Landing - Eight</a>
                       <a target="_blank" href="landing-8.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
@@ -62,10 +140,10 @@
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
                     <a href="landing-9.html">
-                      <img class="card-img-top" src="{{ asset('img/site-xcoop.png') }}" alt="Landing - Nine">
+                      <img class="card-img-top" src="assets/img/overview/landing-9-hero.jpg" alt="Landing - Nine">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-9.html" class="h6 m-0">XCOOP</a>
+                      <a href="landing-9.html" class="h6 m-0">Landing - Nine</a>
                       <a target="_blank" href="landing-9.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
@@ -73,10 +151,10 @@
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
                     <a href="app-collection-list.html">
-                      <img class="card-img-top" src="{{ asset('img/site-bancaprop.png') }}" alt="Collection - List">
+                      <img class="card-img-top" src="assets/img/overview/app-collection-list-hero.jpg" alt="Collection - List">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="app-collection-list.html" class="h6 m-0">BancaProp</a>
+                      <a href="app-collection-list.html" class="h6 m-0">Collection - List</a>
                       <a target="_blank" href="app-collection-list.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
@@ -84,15 +162,47 @@
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
                     <a href="app-docs-landing.html">
-                      <img class="card-img-top" src="{{ asset('img/site-aleriva.png') }}" alt="Documentation - Landing">
+                      <img class="card-img-top" src="assets/img/overview/app-docs-landing-hero.jpg" alt="Documentation - Landing">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="app-docs-landing.html" class="h6 m-0">Aleriva</a>
+                      <a href="app-docs-landing.html" class="h6 m-0">Documentation - Landing</a>
                       <a target="_blank" href="app-docs-landing.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
                 </div>
-                
+                <div class="carousel-cell col-11">
+                  <div class="card card-sm bg-gradient border-0">
+                    <a href="app-discussion-list.html">
+                      <img class="card-img-top" src="assets/img/overview/app-discussion-list-hero.jpg" alt="Discussion - List">
+                    </a>
+                    <div class="card-footer d-flex justify-content-between bg-white">
+                      <a href="app-discussion-list.html" class="h6 m-0">Discussion - List</a>
+                      <a target="_blank" href="app-discussion-list.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-cell col-11">
+                  <div class="card card-sm bg-gradient border-0">
+                    <a href="app-profile-social.html">
+                      <img class="card-img-top" src="assets/img/overview/app-profile-social-hero.jpg" alt="Profile - Social">
+                    </a>
+                    <div class="card-footer d-flex justify-content-between bg-white">
+                      <a href="app-profile-social.html" class="h6 m-0">Profile - Social</a>
+                      <a target="_blank" href="app-profile-social.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-cell col-11">
+                  <div class="card card-sm bg-gradient border-0">
+                    <a href="app-project-detail.html">
+                      <img class="card-img-top" src="assets/img/overview/app-project-detail-hero.jpg" alt="Project - Detail">
+                    </a>
+                    <div class="card-footer d-flex justify-content-between bg-white">
+                      <a href="app-project-detail.html" class="h6 m-0">Project - Detail</a>
+                      <a target="_blank" href="app-project-detail.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <!--end of col-->
@@ -106,11 +216,9 @@
         <div class="container">
           <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
-              <span class="title-decorative">Why {{ config('app.name', 'Laravel') }}?</span>
-              <h2 class="display-4">Applications that matter
-at startup speed</h2>
-              <span class="lead">{{ config('app.name', 'Laravel') }} creates value for enterprise companies by delivering
-high-quality custom software on demand</span>
+              <span class="title-decorative">Meet Wingman</span>
+              <h2 class="display-4">Attractive from every angle</h2>
+              <span class="lead">Wingman delivers a seamless user experience, offering visual consistency for your brand, from landing to logged-in</span>
 
             </div>
             <!--end of col-->
@@ -121,9 +229,9 @@ high-quality custom software on demand</span>
               <a href="pages-landing.html" class="card">
                 <img alt="Image" src="assets/img/overview/landing-9-hero.jpg" class="img-fluid rounded" />
               </a>
-              <h5>Expert</h5>
+              <h5>Landing Pages</h5>
               <p>
-              Get access to domain experts in new technologies.
+                Impress potential customers and introduce your product using Wingman’s diverse, purpose-built landing pages
               </p>
               <a href="pages-landing.html">Explore Landing Pages &rsaquo;</a>
             </li>
@@ -132,9 +240,9 @@ high-quality custom software on demand</span>
               <a href="pages-app.html" class="card">
                 <img alt="Image" src="assets/img/overview/app-profile-social-hero.jpg" class="img-fluid rounded" />
               </a>
-              <h5>Managed</h5>
+              <h5>App Pages</h5>
               <p>
-              Work with a fully-managed development service
+                A robust suite of styled app pages and flexible Bootstrap-based components makes Wingman ideal for building Apps
               </p>
               <a href="pages-app.html">Explore App Pages &rsaquo;</a>
             </li>
@@ -143,9 +251,9 @@ high-quality custom software on demand</span>
               <a href="pages-inner.html" class="card">
                 <img alt="Image" src="assets/img/overview/company-simple-hero.jpg" class="img-fluid rounded" />
               </a>
-              <h5>Fast</h5>
+              <h5>Inner Pages</h5>
               <p>
-              Quickly spin up a new development team
+                Landing pages are just the beginning. Wingman includes a collection of detailed inner pages to complete your online presence.
               </p>
               <a href="pages-inner.html">Explore Inner Pages &rsaquo;</a>
             </li>
@@ -160,11 +268,10 @@ high-quality custom software on demand</span>
         <div class="container">
           <div class="row justify-content-around align-items-center">
             <div class="col-12 col-md-6 col-lg-5 text-center text-md-left section-intro">
-              <span class="title-decorative">{{ config('app.name', 'Laravel') }} TALENT NETWORK</span>
-              <h3 class="h1">Work with
-top global talent</h3>
+              <span class="title-decorative">Designed for Developers</span>
+              <h3 class="h1">Familiar, modern tooling</h3>
               <span class="lead">
-              Our virtual teams feature product managers, designers, and developers with deep industry experience.
+                Wingman employs industry-standard development tools with an intuitive workflow designed to get you up and runnning faster.
               </span>
               <a href="#">Explore Documentation &rsaquo;</a>
             </div>
@@ -183,11 +290,10 @@ top global talent</h3>
         <div class="container">
           <div class="row justify-content-around align-items-center">
             <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
-              <span class="title-decorative">DIGITAL TRANSFORMATION EXPERTISE</span>
-              <h5 class="h1">Transform your business with
-new technologies</h5>
+              <span class="title-decorative">Developed for Designers</span>
+              <h5 class="h1">Responsive, naturally.</h5>
               <p class="lead">
-              {{ config('app.name', 'Laravel') }} delivers software teams on demand to solve enterprise digital challenges.
+                Built on the mobile-first Bootstrap 4 architecture. Wingman scales elegantly to suit all screen sizes.
               </p>
               <a href="pages-app.html">Explore App Pages &rsaquo;</a>
             </div>
@@ -230,9 +336,8 @@ new technologies</h5>
           <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
               <span class="title-decorative">Flexible &amp; Extensible</span>
-              <h2 class="display-4">Reliable, efficient delivery
-powered by technology</h2>
-              <span class="lead">The {{ config('app.name', 'Laravel') }} Solution Delivery platform uses millions of project datapoints to ensure that your project is successful</span>
+              <h2 class="display-4">Bootstrap core + much more</h2>
+              <span class="lead">Wingman features full coverage of Bootstrap's core components plus a suite of additional time-saving features</span>
 
             </div>
             <!--end of col-->
@@ -244,9 +349,9 @@ powered by technology</h2>
                 <li>
                   <a class="active card" id="tab-1" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
                     <div class="card-body">
-                      <h5>Project Health</h5>
+                      <h5>Modular &amp; Multi-Purpose</h5>
                       <p>
-                      Dashboards monitor activity to identify project roadblocks.
+                        Create pages rich in functionality with Wingman's array of modular widgets - carefully designed for a wide range of purposes.
                       </p>
                     </div>
                   </a>
@@ -254,9 +359,9 @@ powered by technology</h2>
                 <li>
                   <a class="card" id="tab-2" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
                     <div class="card-body">
-                      <h5>Karma</h5>
+                      <h5>Familiar Markup</h5>
                       <p>
-                      Powerful peer rating ensures team quality across the {{ config('app.name', 'Laravel') }} Talent Network.
+                        Based on the Bootstrap 4 codebase, Wingman's code is instantly familiar, easy to understand and a dream to extend.
                       </p>
                     </div>
                   </a>
@@ -264,9 +369,9 @@ powered by technology</h2>
                 <li>
                   <a class="card" id="tab-3" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
                     <div class="card-body">
-                      <h5>Project Planner</h5>
+                      <h5>Purposeful Plug-ins</h5>
                       <p>
-                      Ideal plans by application type leverage past project experience.
+                        Elegantly extending Bootstrap's core functionality with Wizards, Touch Sliders, Interface Icons and more.
                       </p>
                     </div>
                   </a>
@@ -289,15 +394,15 @@ powered by technology</h2>
             </div>
             <!--end of col-->
           </div>
-          <!--end of row
+          <!--end of row-->
           <div class="row justify-content-center text-center section-outro">
             <div class="col-lg-4 col-md-5">
               <h6>Detailed Overview</h6>
               <p>Wingman's component index showcases the full breadth of features at a glance</p>
               <a href="components-bootstrap.html">Start exploring &rsaquo;</a>
             </div>
-            
-          </div>-->
+            <!--end of col-->
+          </div>
           <!--end of row-->
         </div>
         <!--end of container-->
@@ -310,8 +415,8 @@ powered by technology</h2>
         <div class="container space-lg">
           <div class="row text-center">
             <div class="col">
-              <h3 class="h1">Ready to get started?</h3>
-              <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-light">Contact us</a>
+              <h3 class="h1">Start building feature-rich websites</h3>
+              <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-light">Purchase Now</a>
             </div>
             <!--end of col-->
           </div>
@@ -420,6 +525,18 @@ powered by technology</h2>
         <!--end of container-->
       </footer>
     </div>
-    </body>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/smartwizard@4.3.1/dist/js/jquery.smartWizard.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.1.2/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/scrollmonitor@1.2.4/scrollMonitor.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/zoom-vanilla.js@2.0.6/dist/zoom-vanilla.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+
+  </body>
+
 </html>
-@endsection
