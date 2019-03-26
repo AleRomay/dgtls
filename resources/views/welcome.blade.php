@@ -4,23 +4,20 @@
 
 @section('content')
        
-
-           
+   
 
 
     
                 
-    <div class="main-container">
-      <section class="space-lg bg-gradient overflow-hidden">
+   
+      <section class="bg-gradient overflow-hidden">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-12 col-md-6 mb-5 mb-md-0 position-relative">
+            <div class="col-12 col-md-6 position-relative">
               <h1 class="display-4">We build better software, faster</h1>
-              <p class="lead">
-              {{ config('app.name', 'Laravel') }} delivers high-impact business outcomes at startup speed.
-              </p>
+              <p class="lead">{{ config('app.name') }} delivers high-impact business outcomes at startup speed.</p>
               <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-success">Contact us</a>
-              <i class="icon-chevron-right"></i>to accelerate your digital transformation
+              <br>to accelerate your digital transformation
             </div>
             <!--end of col-->
             <div class="col-12 col-md-6">
@@ -28,67 +25,67 @@
 
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
-                    <a href="landing-1.html">
-                      <img class="card-img-top" src="{{ asset('img/site-bancaclub.png') }}" alt="Landing - One">
+                    <a href="https://ar.bancaclub.com">
+                      <img class="card-img-top" src="{{ asset('img/site-bancaclub.png') }}" alt="Banca Club">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-1.html" class="h6 m-0">BancaClub</a>
-                      <a target="_blank" href="landing-1.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                      <a href="https://ar.bancaclub.com" class="h6 m-0">Banca Club</a>
+                      <a target="_blank" href="https://ar.bancaclub.com" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="fe fe-browser"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
-                    <a href="landing-2.html">
-                      <img class="card-img-top" src="{{ asset('img/site-atlanticpark.png') }}" alt="Landing - Two">
+                    <a href="https://www.atlanticpark.com.ar">
+                      <img class="card-img-top" src="{{ asset('img/site-atlanticpark.png') }}" alt="Atlantic Park">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-2.html" class="h6 m-0">AtlanticPark</a>
-                      <a target="_blank" href="landing-2.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                      <a href="https://www.atlanticpark.com.ar" class="h6 m-0">Atlantic Park</a>
+                      <a target="_blank" href="https://www.atlanticpark.com.ar" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
-                    <a href="landing-8.html">
-                      <img class="card-img-top" src="{{ asset('img/site-subanca.png') }}" alt="Landing - Eight">
+                    <a href="https://www.subanca.com">
+                      <img class="card-img-top" src="{{ asset('img/site-subanca.png') }}" alt="Su Banca">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-8.html" class="h6 m-0">SuBanca</a>
-                      <a target="_blank" href="landing-8.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                      <a href="https://www.subanca.com" class="h6 m-0">Su Banca</a>
+                      <a target="_blank" href="https://www.subanca.com" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
-                    <a href="landing-9.html">
-                      <img class="card-img-top" src="{{ asset('img/site-xcoop.png') }}" alt="Landing - Nine">
+                    <a href="https://www.xcoop.me">
+                      <img class="card-img-top" src="{{ asset('img/site-xcoop.png') }}" alt="XCOOP">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="landing-9.html" class="h6 m-0">XCOOP</a>
-                      <a target="_blank" href="landing-9.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                      <a href="https://www.xcoop.me" class="h6 m-0">XCOOP</a>
+                      <a target="_blank" href="https://www.xcoop.me" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
-                    <a href="app-collection-list.html">
-                      <img class="card-img-top" src="{{ asset('img/site-bancaprop.png') }}" alt="Collection - List">
+                    <a href="https://www.bancaprop.com">
+                      <img class="card-img-top" src="{{ asset('img/site-bancaprop.png') }}" alt="Banca Prop">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="app-collection-list.html" class="h6 m-0">BancaProp</a>
-                      <a target="_blank" href="app-collection-list.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                      <a href="https://www.bancaprop.com" class="h6 m-0">Banca Prop</a>
+                      <a target="_blank" href="https://www.bancaprop.com" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-cell col-11">
                   <div class="card card-sm bg-gradient border-0">
-                    <a href="app-docs-landing.html">
-                      <img class="card-img-top" src="{{ asset('img/site-aleriva.png') }}" alt="Documentation - Landing">
+                    <a href="https://www.aleriva.com">
+                      <img class="card-img-top" src="{{ asset('img/site-aleriva.png') }}" alt="Aleriva">
                     </a>
                     <div class="card-footer d-flex justify-content-between bg-white">
-                      <a href="app-docs-landing.html" class="h6 m-0">Aleriva</a>
-                      <a target="_blank" href="app-docs-landing.html" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
+                      <a href="https://www.aleriva.com" class="h6 m-0">Aleriva</a>
+                      <a target="_blank" href="https://www.aleriva.com" data-toggle="tooltip" data-placement="top" title="Open in new tab"><i class="icon-popup"></i></a>
                     </div>
                   </div>
                 </div>
@@ -106,10 +103,10 @@
         <div class="container">
           <div class="row justify-content-center text-center section-intro">
             <div class="col-12 col-md-9 col-lg-8">
-              <span class="title-decorative">Why {{ config('app.name', 'Laravel') }}?</span>
+              <span class="title-decorative">Why {{ config('app.name') }}?</span>
               <h2 class="display-4">Applications that matter
 at startup speed</h2>
-              <span class="lead">{{ config('app.name', 'Laravel') }} creates value for enterprise companies by delivering
+              <span class="lead">{{ config('app.name') }} creates value for enterprise companies by delivering
 high-quality custom software on demand</span>
 
             </div>
@@ -118,36 +115,36 @@ high-quality custom software on demand</span>
           <!--end of row-->
           <ul class="row feature-list feature-list-sm">
             <li class="col-12 col-md-4">
-              <a href="pages-landing.html" class="card">
-                <img alt="Image" src="assets/img/overview/landing-9-hero.jpg" class="img-fluid rounded" />
-              </a>
+            
+                <img alt="Image" src="{{ asset('img/front-expert.svg') }}" class="img-fluid rounded" />
+              
               <h5>Expert</h5>
               <p>
               Get access to domain experts in new technologies.
               </p>
-              <a href="pages-landing.html">Explore Landing Pages &rsaquo;</a>
+              
             </li>
             <!--end of col-->
             <li class="col-12 col-md-4">
-              <a href="pages-app.html" class="card">
-                <img alt="Image" src="assets/img/overview/app-profile-social-hero.jpg" class="img-fluid rounded" />
-              </a>
+              
+                <img alt="Image" src="{{ asset('img/front-managed.svg') }}" class="img-fluid rounded" />
+              
               <h5>Managed</h5>
               <p>
               Work with a fully-managed development service
               </p>
-              <a href="pages-app.html">Explore App Pages &rsaquo;</a>
+              
             </li>
             <!--end of col-->
             <li class="col-12 col-md-4">
-              <a href="pages-inner.html" class="card">
-                <img alt="Image" src="assets/img/overview/company-simple-hero.jpg" class="img-fluid rounded" />
-              </a>
+              
+                <img alt="Image" src="{{ asset('img/front-fast.svg') }}" class="img-fluid rounded" />
+              
               <h5>Fast</h5>
               <p>
               Quickly spin up a new development team
               </p>
-              <a href="pages-inner.html">Explore Inner Pages &rsaquo;</a>
+              
             </li>
             <!--end of col-->
           </ul>
@@ -160,9 +157,9 @@ high-quality custom software on demand</span>
         <div class="container">
           <div class="row justify-content-around align-items-center">
             <div class="col-12 col-md-6 col-lg-5 text-center text-md-left section-intro">
-              <span class="title-decorative">{{ config('app.name', 'Laravel') }} TALENT NETWORK</span>
+              <span class="title-decorative">{{ config('app.name') }} TALENT NETWORK</span>
               <h3 class="h1">Work with
-top global talent</h3>
+top local talent</h3>
               <span class="lead">
               Our virtual teams feature product managers, designers, and developers with deep industry experience.
               </span>
@@ -187,7 +184,7 @@ top global talent</h3>
               <h5 class="h1">Transform your business with
 new technologies</h5>
               <p class="lead">
-              {{ config('app.name', 'Laravel') }} delivers software teams on demand to solve enterprise digital challenges.
+              {{ config('app.name') }} delivers software teams on demand to solve enterprise digital challenges.
               </p>
               <a href="pages-app.html">Explore App Pages &rsaquo;</a>
             </div>
@@ -209,10 +206,10 @@ new technologies</h5>
           <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
               <div class="media">
-                <img alt="Image" src="assets/img/avatar-male-3.jpg" class="avatar avatar-lg" />
+                <img alt="Image" src="{{ asset('img/avatar-1.jpg') }}" class="avatar avatar-lg" />
                 <div class="media-body">
                   <p class="h2">
-                    “With Wingman, we were able to turn out a stunning landing page and compelling MVP for our SaaS App in no time.”
+                    “With {{ config('app.name') }}, we were able to turn out a stunning landing page and compelling MVP for our SaaS App in no time.”
                   </p>
                   <span>Samuel Canning, Movend</span>
                 </div>
@@ -232,7 +229,7 @@ new technologies</h5>
               <span class="title-decorative">Flexible &amp; Extensible</span>
               <h2 class="display-4">Reliable, efficient delivery
 powered by technology</h2>
-              <span class="lead">The {{ config('app.name', 'Laravel') }} Solution Delivery platform uses millions of project datapoints to ensure that your project is successful</span>
+              <span class="lead">The {{ config('app.name') }} Solution Delivery platform uses millions of project datapoints to ensure that your project is successful</span>
 
             </div>
             <!--end of col-->
@@ -256,7 +253,7 @@ powered by technology</h2>
                     <div class="card-body">
                       <h5>Karma</h5>
                       <p>
-                      Powerful peer rating ensures team quality across the {{ config('app.name', 'Laravel') }} Talent Network.
+                      Powerful peer rating ensures team quality across the {{ config('app.name') }} Talent Network.
                       </p>
                     </div>
                   </a>
@@ -277,13 +274,13 @@ powered by technology</h2>
             <div class="col-12 col-md-6 order-md-1">
               <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="tab-1">
-                  <img alt="Image" class="img-fluid shadow" src="assets/img/graphic-intro-widgets.png" />
+                  <img alt="Image" class="img-fluid shadow" src="{{ asset('img/front-hero.png') }}" />
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="tab-2">
-                  <img alt="Image" class="img-fluid shadow" src="assets/img/graphic-intro-code.png" />
+                  <img alt="Image" class="img-fluid shadow" src="{{ asset('img/front-hero.png') }}" />
                 </div>
                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="tab-3">
-                  <img alt="Image" class="img-fluid shadow" src="assets/img/graphic-intro-plugins.png" />
+                  <img alt="Image" class="img-fluid shadow" src="{{ asset('img/front-hero.png') }}" />
                 </div>
               </div>
             </div>
@@ -303,123 +300,5 @@ powered by technology</h2>
         <!--end of container-->
       </section>
       <!--end of section-->
-      <section class="bg-gradient p-0 text-white">
-        <svg class="decorative-divider" preserveAspectRatio="none" viewbox=" 0 0 100 100">
-          <polygon fill="#F8F9FB" points="0 0 100 0 100 100"></polygon>
-        </svg>
-        <div class="container space-lg">
-          <div class="row text-center">
-            <div class="col">
-              <h3 class="h1">Ready to get started?</h3>
-              <a href="https://themes.getbootstrap.com/product/wingman-landing-page-app-template" class="btn btn-lg btn-light">Contact us</a>
-            </div>
-            <!--end of col-->
-          </div>
-          <!--end of row-->
-        </div>
-        <!--end of container-->
-      </section>
-      <!--end of section-->
-      <footer class="bg-gray text-light footer-long">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-3">
-              <img alt="Image" src="assets/img/logo-white.svg" class="mb-4" />
-              <p class="text-muted">
-                &copy; 2019 Medium Rare
-                <br />Template available exclusively
-                <br />at Bootstrap Themes
-              </p>
-            </div>
-            <!--end of col-->
-            <div class="col-12 col-md-9">
-              <span class="h5">A robust suite of styled components for Bootstrap 4</span>
-              <div class="row no-gutters">
-                <div class="col-6 col-lg-3">
-                  <h6>Navigate</h6>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="index.html">Overview</a>
-                    </li>
-                    <li>
-                      <a href="pages-landing.html">Landing Pages</a>
-                    </li>
-                    <li>
-                      <a href="pages-app.html">App Pages</a>
-                    </li>
-                    <li>
-                      <a href="pages-inner.html">Inner Pages</a>
-                    </li>
-                  </ul>
-                </div>
-                <!--end of col-->
-                <div class="col-6 col-lg-3">
-                  <h6>Platform</h6>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#">Mac OS &amp; iOS</a>
-                    </li>
-                    <li>
-                      <a href="#">Android &amp; Chrome OS</a>
-                    </li>
-                    <li>
-                      <a href="#">Windows</a>
-                    </li>
-                    <li>
-                      <a href="#">Linux</a>
-                    </li>
-                  </ul>
-                </div>
-                <!--end of col-->
-                <div class="col-6 col-lg-3">
-                  <h6>Community</h6>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#">Forum</a>
-                    </li>
-                    <li>
-                      <a href="#">Knowledgebase</a>
-                    </li>
-                    <li>
-                      <a href="#">Hire an expert</a>
-                    </li>
-                    <li>
-                      <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-                <!--end of col-->
-                <div class="col-6 col-lg-3">
-                  <h6>Company</h6>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#">About company</a>
-                    </li>
-                    <li>
-                      <a href="#">History</a>
-                    </li>
-                    <li>
-                      <a href="#">Team</a>
-                    </li>
-                    <li>
-                      <a href="#">Investment</a>
-                    </li>
-                  </ul>
-                </div>
-                <!--end of col-->
-              </div>
-              <!--end of row-->
-            </div>
-            <!--end of col-->
-          </div>
-          <!--end of row-->
-        </div>
-        <!--end of container-->
-      </footer>
-    </div>
-    </body>
-</html>
+    
 @endsection

@@ -12796,8 +12796,8 @@ button:focus {
 
 @font-face {7
 	font-family: Cerebri Sans;
-	src: url(../fonts/cerebrisans-regular.eot);
-	src: url(../fonts/cerebrisans-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/cerebrisans-regular.woff) format("woff"), url(../fonts/cerebrisans-regular.ttf) format("truetype");
+	src: url({{ asset('fonts/cerebrisans-regular.eot')}});
+	src: url({{ asset('fonts/cerebrisans-regular.eot#iefix')}}) format("embedded-opentype"), url({{asset('fonts/cerebrisans-regular.woff') }}) format("woff"), url({{ asset('fonts/cerebrisans-regular.ttf') }}) format("truetype");
 	font-weight: 400;
 	font-style: normal
 }
@@ -12918,7 +12918,7 @@ button:focus {
 }
 
 .bg-vibrant {
-	background-image: linear-gradient(to bottom right, rgba(18, 111, 235, .9), rgba(114, 3, 225, .9)), url(../img/covers/sidebar-cover.jpg);
+	background-image: linear-gradient(to bottom right, rgba(18, 111, 235, .9), rgba(114, 3, 225, .9)), url({{asset('img/sidebar-cover.jpg')}});
 	background-repeat: no-repeat, no-repeat;
 	background-position: 50%, 50%;
 	background-size: cover, cover
@@ -12931,7 +12931,7 @@ button:focus {
 }
 
 .bg-hero {
-	background-image: linear-gradient(180deg, rgba(18, 38, 63, .85), rgba(18, 38, 63, .85)), url(../img/covers/header-cover.jpg);
+	background-image: linear-gradient(180deg, rgba(18, 38, 63, .85), rgba(18, 38, 63, .85)), url({{asset('img/header-cover.jpg')}});
 	background-repeat: no-repeat, no-repeat;
 	background-position: 50%, 50%;
 	background-size: cover, cover
@@ -13046,7 +13046,7 @@ button:focus {
 	position: absolute;
 	width: 0;
 	height: 0;
-	background-image: url(../img/avatar-status.svg), url(../img/avatar-group.svg), url(../img/avatar-group-hover.svg), url(../img/avatar-group-hover-last.svg)
+	background-image: url({{asset('img/avatar-status.svg')}}), url({{asset('img/avatar-group.svg')}}), url({{asset('img/avatar-hover.svg')}}), url({{ asset('img/avatar-hover-last.svg')}})
 }
 
 .avatar-img {
@@ -13079,8 +13079,8 @@ button:focus {
 
 .avatar-offline .avatar-img,
 .avatar-online .avatar-img {
-	-webkit-mask-image: url(../img/avatar-status.svg);
-	mask-image: url(../img/avatar-status.svg);
+	-webkit-mask-image: url({{asset('img/avatar-status.svg')}});
+	mask-image: url({{asset('img/avatar-status.svg')}});
 	-webkit-mask-size: 100% 100%;
 	mask-size: 100% 100%
 }
@@ -13179,8 +13179,8 @@ button:focus {
 }
 
 .avatar-group .avatar:not(:last-child) {
-	-webkit-mask-image: url(../img/avatar-group.svg);
-	mask-image: url(../img/avatar-group.svg);
+	-webkit-mask-image: url({{asset('img/avatar-group.svg')}});
+	mask-image: url({{asset('img/avatar-group.svg')}});
 	-webkit-mask-size: 100% 100%;
 	mask-size: 100% 100%
 }
@@ -13192,15 +13192,15 @@ button:focus {
 }
 
 .avatar-group .avatar:hover+.avatar {
-	-webkit-mask-image: url(../img/avatar-group-hover.svg);
-	mask-image: url(../img/avatar-group-hover.svg);
+	-webkit-mask-image: url({{asset('img/avatar-hover.svg')}});
+	mask-image: url({{asset('img/avatar-hover.svg')}});
 	-webkit-mask-size: 100% 100%;
 	mask-size: 100% 100%
 }
 
 .avatar-group .avatar:hover+.avatar:last-child {
-	-webkit-mask-image: url(../img/avatar-group-hover-last.svg);
-	mask-image: url(../img/avatar-group-hover-last.svg)
+	-webkit-mask-image: url(.{{asset('img/avatar-hover-last.svg')}});
+	mask-image: url({{asset('img/avatar-hover-last.svg')}})
 }
 
 .chart {
@@ -13350,8 +13350,8 @@ button:focus {
 }
 
 .icon.active>.fe {
-	-webkit-mask-image: url(../img/icon-status.svg);
-	mask-image: url(../img/icon-status.svg);
+	-webkit-mask-image: url({{asset('img/icon-status.svg')}});
+	mask-image: url({{asset('img/icon-status.svg')}});
 	-webkit-mask-size: 100% 100%;
 	mask-size: 100% 100%
 }

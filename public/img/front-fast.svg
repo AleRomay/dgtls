@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-220,0)">
+        <g id="fast" transform="matrix(1,0,0,1,220,0)">
+            <rect x="0" y="0" width="200" height="200" style="fill:none;"/>
+            <g transform="matrix(0.07866,0,0,0.00689338,82.8355,79.954)">
+                <rect x="-481" y="-1444" width="1400" height="8704" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.752333,0,0,0.752333,-153.037,24.86)">
+                <circle cx="269.876" cy="99.876" r="39.876" style="fill:rgb(35,82,128);"/>
+            </g>
+            <g transform="matrix(0.75,0,0,0.75,-135,25)">
+                <circle cx="360" cy="80" r="20" style="fill:rgb(105,209,238);"/>
+            </g>
+            <g transform="matrix(0.75,0,0,0.75,-105,25)">
+                <circle cx="360" cy="80" r="20" style="fill:rgb(133,225,178);"/>
+            </g>
+            <g transform="matrix(0.75,0,0,0.75,-135,55)">
+                <circle cx="360" cy="80" r="20" style="fill:rgb(64,148,237);"/>
+            </g>
+            <g transform="matrix(0.75,0,0,0.75,-105,55)">
+                <circle cx="360" cy="80" r="20" style="fill:rgb(255,116,82);"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1018.61,-6.58524e-12,5.77098e-13,-11623.3,537.612,2908)"><stop offset="0" style="stop-color:white;stop-opacity:1"/><stop offset="1" style="stop-color:rgb(105,208,237);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

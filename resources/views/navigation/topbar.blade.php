@@ -5,8 +5,8 @@
 		<span class="navbar-toggler-icon"></span>
 		</button>
 		<!-- Brand -->
-		<a class="navbar-brand mr-auto" href="index.html">
-		<img src="{{ asset('img/logo.svg') }}" alt="..." class="navbar-brand-img">
+		<a class="navbar-brand mr-auto order-lg-first" href="index.html">
+		<img src="{{ asset('img/logo.svg') }}" alt="..." class="navbar-brand-img"> Digitals
 		</a>
 		<!-- Form -->
 		
